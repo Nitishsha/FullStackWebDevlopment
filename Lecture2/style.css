@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+input{
+    text-align: center;
+    color: blueviolet;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+}
