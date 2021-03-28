@@ -9,11 +9,48 @@ body{
 nav{
     margin-top: 0;
     height: 45px;
-    background-color: rgb(97, 93, 93);
+    background-color: rgba(97, 93, 93,0.5);
     color: white ; display: flex; justify-content: space-between;
     align-items: center;
 }
-.tag{
-    text-decoration:none ;
+
+.tag a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 20px;
+
+}
+.tag :hover {
+    color: aqua;
+}
+.logo{
+    margin-left: 20px;
+}
+h3 {
+    margin-left: 45%;
+    margin-top: 20%;
+    
+}
+h1 {
+    margin-left: 35% ;
+    margin-top: 17px;
+}
+p{
+    margin-left:44% ;
+}
+#button1{
+    margin-left: 45%;
+    text-decoration: none;
+    border: 3px;
+}
+#button a{
+    border: 1px;
+}
+#button2{
+    text-decoration: none;
+    
+
 }
     
